@@ -1,14 +1,19 @@
 import React from 'react';
+import { ThemeContext } from './ThemeProvider.js'
 
-const Button = props => {
-  const { theme } = props;
-
+const Button = () => {
   return (
-    <button
-      className={`${theme}`}
-      onClick={props.changeTheme}>
-      Change Theme
-    </button>
+    <ThemeContext.Consumer>
+      {(context) => (
+        <React.Fragment>
+          <button
+            className={`${context.state.theme}`}
+            onClick={context.changeTheme}>
+            Change Theme
+          </button>
+        </React.Fragment>
+      )}
+    </ThemeContext.Consumer>
   )
 }
 
