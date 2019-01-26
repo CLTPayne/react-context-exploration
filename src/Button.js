@@ -5,7 +5,7 @@ const Button = props => {
 
   return (
     <button
-      className={`btn ${theme}`}
+      className={`${theme}`}
       onClick={props.changeTheme}>
       Change Theme
     </button>

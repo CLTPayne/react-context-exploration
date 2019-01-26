@@ -1,7 +1,5 @@
 .App {
   text-align: center;
-  background-color: #282c34;
-  color: white;
 }
 
 .App-header {
@@ -15,4 +13,14 @@
 
 .theme-toggle {
   min-height: 60vh;
+}
+
+.theme-night {
+  background-color: #282c34;
+  color: white;
+}
+
+.theme-day {
+  background-color: #ffffff;
+  color: black;
 }
