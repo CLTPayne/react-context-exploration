@@ -1,3 +1,6 @@
+import React from 'react';
+import Button from './Button.js';
+
 const Toggle = props => {
   return (
     <div className="theme-toggle">
@@ -11,3 +14,5 @@ const Toggle = props => {
     </div>
   )
 }
+
+export default Toggle;

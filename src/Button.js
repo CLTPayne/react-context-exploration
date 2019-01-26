@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Button = props => {
   const { theme } = props;
 
@@ -9,3 +11,5 @@ const Button = props => {
     </button>
   )
 }
+
+export default Button;
