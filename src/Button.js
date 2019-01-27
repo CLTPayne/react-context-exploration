@@ -5,13 +5,12 @@ const Button = () => {
   return (
     <ThemeContext.Consumer>
       {(context) => (
-        <React.Fragment>
-          <button
-            className="btn"
+          <label
+            className="switch"
             onClick={context.changeTheme}>
-            Change Theme
-          </button>
-        </React.Fragment>
+            <input type="checkbox" />
+            <span className="slider" />
+          </label>
       )}
     </ThemeContext.Consumer>
   )
