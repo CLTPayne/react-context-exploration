@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview:
+Aim of this project is to explore the React Context API and possible use cases. A context was created to make the application theme available and editable without passing down props through a large tree.
+
+This project was created with [Create React App](https://github.com/facebook/create-react-app).
+
+## Demo:
+![Video of Application](https://github.com/CLTPayne/react-context-exploration/blob/master/public/NightDay.gif)
 
 ## Available Scripts
 
