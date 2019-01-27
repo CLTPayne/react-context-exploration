@@ -9,8 +9,8 @@ class App extends Component {
       <ThemeProvider>
         <ThemeContext.Consumer>
           {(context) => (
-            <div className={`App ${context.state.theme}`}>
-              <header className="App-header">
+            <div className={`app ${context.state.theme}`}>
+              <header className="app-header">
                 <p>
                   Night / Day
                 </p>
