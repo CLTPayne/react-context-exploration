@@ -7,7 +7,7 @@ const Button = () => {
       {(context) => (
         <React.Fragment>
           <button
-            className={`${context.state.theme}`}
+            className="btn"
             onClick={context.changeTheme}>
             Change Theme
           </button>
