@@ -5,10 +5,10 @@ const Button = () => {
   return (
     <ThemeContext.Consumer>
       {(context) => (
-          <label
-            className="switch"
-            onClick={context.changeTheme}>
-            <input type="checkbox" />
+          <label className="switch">
+            <input
+              type="checkbox"
+              onClick={context.changeTheme} />
             <span className="slider" />
           </label>
       )}
