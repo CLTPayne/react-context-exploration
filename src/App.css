@@ -49,6 +49,7 @@
   -webkit-transition: .4s;
   transition: .4s;
   border-radius: 34px;
+  font-size: 20px;
 }
 
 .slider:before {
@@ -62,10 +63,40 @@
   -webkit-transition: .4s;
   transition: .4s;
   border-radius: 50%;
+  z-index: 1;
 }
 
 input:checked + .slider:before {
   -webkit-transform: translateX(36px);
   -ms-transform: translateX(36px);
   transform: translateX(36px);
+}
+
+img {
+  width: 25px;
+  height: 25px
+}
+
+.toggle-track-check {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 5.5px;
+  top: 0;
+  bottom: 6px;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
+}
+
+.toggle-track-x {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  right: 12px;
+  top: 0;
+  bottom: 6px;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
 }
