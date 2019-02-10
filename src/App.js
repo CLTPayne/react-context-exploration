@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ThemeProvider, { ThemeContext } from './ThemeProvider.js'
+import ThemeProvider from './ThemeProvider.js'
 import Toggle from './Toggle.js';
 import './App.css';
 
