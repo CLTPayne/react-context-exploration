@@ -7,18 +7,7 @@ class App extends Component {
   render() {
     return (
       <ThemeProvider>
-        <ThemeContext.Consumer>
-          {(context) => (
-            <div className={`app ${context.state.theme}`}>
-              <header className="app-header">
-                <p>
-                  Night / Day
-                </p>
-              </header>
-              <Toggle />
-            </div>
-          )}
-        </ThemeContext.Consumer>
+        <Toggle />
       </ThemeProvider>
     );
   }
